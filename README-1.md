@@ -1,2 +1,3 @@
 # Foodie-Friday
-A project by React - Function Component
+A Food Recipe App
+(By React - Function Component)
