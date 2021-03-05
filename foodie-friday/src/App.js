@@ -7,8 +7,10 @@ const App = () => {
     // Authenticate API --> Use Environment Tools to protect the APP_ID and APP_KEY :)
    const APP_ID = "0a558300";
    const APP_KEY = "181f226856b2e1b79a5770bcf412a99a";
-  
-  //We need componentdidmount() while working with API in react0class component
+
+  const [recipes , setRecipes]= useState([]);
+
+  //We need useEffect() while working with API in react function component
   useEffect ( () =>{
     getRecipes();
   } ,[]);
@@ -17,7 +19,8 @@ const App = () => {
   const getRecipes = async () => {
     const response = await fetch(`https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`);
     const data = await response.json();
-    console.log(data);
+    // console.log(data.hits); //hits has all the recipes
+    setRecipes(data.hits);
   }
 
   
