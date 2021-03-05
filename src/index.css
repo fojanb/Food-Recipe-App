@@ -2,8 +2,7 @@ body {
   font-family: "Source Code Pro", "Courier New", Courier, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #a7bed3;
-  margin: 50px;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);  margin: 50px;
 }
 
 .footer {
