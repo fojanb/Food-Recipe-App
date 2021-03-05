@@ -1,21 +1,45 @@
-.cardRecipe{
-    display: flex;
-    width:30%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: left;
-    border: 8px solid #f1ffc4;
-    margin: 30px;
-    padding: 30px;
-    border-radius: 20px;
-    background-color: #c6e2e9;
-
+.cardRecipe {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: left;
+  align-items: center;
+  border: 8px solid #f1ffc4;
+  margin: 30px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgb(163, 161, 161);
+  background-color: #cbeef3;
+  position: relative;
+  animation-timing-function: ease;
+  animation: cardRecipeMoveRight 3s;
 }
-.cardRecipe > img{
-    border-radius: 20px;
+@keyframes cardRecipeMoveRight {
+    from {
+      left: 0px;
+    }
+    to {
+      left: -60px;
+    }
+  }
+  @keyframes cardRecipeMoveRight {
+    from {
+      left: -60px;
+    }
+    to {
+      left: 0px;
+    }
+  }
+.cardRecipe > img {
+  border-radius: 50%;
+  border: 4px solid #f1ffc4;
+  width: 100px;
+  height: 100px;
 }
-.cardRecipe > ol,p{
-    font-weight: bold;
-    font-size: 1.05rem;
+.cardRecipe > ol,
+p {
+  font-weight: bold;
+  font-size: 1.05rem;
 }
