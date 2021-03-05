@@ -1,0 +1,13 @@
+body {
+  font-family: "Source Code Pro", "Courier New", Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #a7bed3;
+  margin: 50px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+}
