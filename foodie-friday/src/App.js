@@ -9,6 +9,13 @@ class App extends Component {
     APP_KEY: "181f226856b2e1b79a5770bcf412a99a",
     exampleReq: `https://api.edamam.com/search?q=chicken&app_id={this.state.APP_ID}&app_key={this.state.APP_KEY}`,
   };
+  //We need componentdidmount() while working with API in class component
+  componentDidMount(){
+    //send HTTP request
+    //save it to the state
+    console.log("Fojan bb");
+    
+  }
   render() {
     return (
       <div className="App">
