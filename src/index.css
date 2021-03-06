@@ -1,9 +1,9 @@
 body {
-  font-family: "Source Code Pro", "Courier New", Courier, monospace;
+  font-family: "Khula", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);  margin: 50px;
-}
+background-color: #99c1de;
+margin: 50px;}
 
 .footer {
   display: flex;
