@@ -48,7 +48,7 @@ const App = () => {
   // ***********************************************************
   return (
     <div className="App">
-      <h1 style={styles}><span style={spanStyle}>🥑&nbsp;🍓&nbsp;🍬&nbsp;🍹&nbsp;🍪&nbsp;</span>Foodie Friday<span style={spanStyle}>&nbsp;🍰&nbsp;🍩&nbsp;🍄&nbsp;🍦&nbsp;🍉</span></h1>
+      <h1 style={styles}><span style={spanStyle}>🥑&nbsp;</span>Foodie Friday<span style={spanStyle}>&nbsp;🍉</span></h1>
       <form className="search-form" onSubmit={getSearch}>
         <input
           type="text"
@@ -79,3 +79,6 @@ const App = () => {
 };
 
 export default App;
+
+// 🍓&nbsp;🍬&nbsp;🍹&nbsp;🍪&nbsp;
+// &nbsp;🍰&nbsp;🍩&nbsp;🍄&nbsp;🍦
