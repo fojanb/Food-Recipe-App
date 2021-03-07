@@ -1,3 +1,7 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
   font-family: "Khula", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -14,7 +18,10 @@ body {
   width: 100%;
   color: #5c5661;
   font-size: 14px;
-  position: fixed;
-  left: 0;
-  bottom: 20px;
+  position: absolute;
+    left: 0;
+    bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
 }
