@@ -15,6 +15,9 @@
   padding: 10px;
   border-radius: 10px;
 }
+.search-bar:hover{
+  background-color: #e2eafc;
+}
 .search-button {
   border: none;
   border-radius: 40px;
