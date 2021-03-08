@@ -7,7 +7,7 @@ const Recipe = (props) => {
   }
   return (
     <div className="cardRecipe">
-      <h2><span style={spanStyle}>🥄</span>{props.title}<span></span></h2>
+      <h2><span style={spanStyle}>🍉</span>{props.title}<span></span></h2>
       <ol>
         {props.ingredients.map((ingredient) => (
           <li>{ingredient.text}</li>
