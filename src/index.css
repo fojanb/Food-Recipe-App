@@ -36,7 +36,7 @@ body {
 }
 .header #animation{
   transition: width 2s, height 2s, transform 2s;
-  transform: rotate(360deg);
+  transform: rotateY(360deg);
 
 }
 .footer {
