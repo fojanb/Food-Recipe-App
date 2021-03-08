@@ -18,10 +18,11 @@
 .search-button {
   border: none;
   border-radius: 10px;
-  background-color: #c5dedd;
+  background-color: #d0f4de;
+  border: 5px solid #ff99c8;
   padding: 10px 20px;
   margin-left: 10px;
-  font-family: "Source Code Pro", "Courier New", Courier, monospace;
+  font-family: 'Caveat', cursive;
   font-weight: bold;
   box-shadow: 5px 5px 5px rgb(163, 161, 161);
 
@@ -35,4 +36,7 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+h2{
+  font-family: 'Caveat', cursive;
 }
