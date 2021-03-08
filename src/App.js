@@ -39,25 +39,26 @@ const App = () => {
   };
   const styles = {
     display: "flex",
-    justifyContent:"center",
+    justifyContent: "center",
     // color:"white"
   };
   const spanStyle = {
-    fontSize:"20px"
-  }
+    fontSize: "20px",
+  };
   // ***********************************************************
   return (
     <div className="App">
       <form className="search-form" onSubmit={getSearch}>
+        <span></span>
         <input
           type="text"
-          placeholder="🍽 Type Something Yummy..."
+          placeholder="🥂 Type Something Yummy... "
           className="search-bar"
           value={search}
           onChange={updateSearch}
         ></input>
         <button type="submit" className="search-button">
-          Find it!
+           🍭
         </button>
       </form>
       {/* List of Recipe components : */}
