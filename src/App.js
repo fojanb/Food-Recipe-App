@@ -48,17 +48,16 @@ const App = () => {
   // ***********************************************************
   return (
     <div className="App">
-      <h1 style={styles}><span style={spanStyle}>🥑&nbsp;</span>Foodie Friday<span style={spanStyle}>&nbsp;🍉</span></h1>
       <form className="search-form" onSubmit={getSearch}>
         <input
           type="text"
-          placeholder="🍽 Type Something Yummy ! "
+          placeholder="🍽 Type Something Yummy..."
           className="search-bar"
           value={search}
           onChange={updateSearch}
         ></input>
         <button type="submit" className="search-button">
-          Search
+          Find it!
         </button>
       </form>
       {/* List of Recipe components : */}
