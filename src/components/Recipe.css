@@ -6,12 +6,12 @@
   justify-content: space-around;
   text-align: left;
   align-items: center;
-  border: 8px solid #eddcd2;
+  border: 8px solid #fcf6bd;
   margin: 30px;
   padding: 30px;
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgb(163, 161, 161);
-  background-color: #fff1e6;
+  background-color: #dbcdf0;
   position: relative;
   animation-timing-function: ease;
   animation: cardRecipeMoveRight 3s;
@@ -34,7 +34,7 @@
   }
 .cardRecipe > img {
   border-radius: 50%;
-  border: 4px solid #eddcd2;
+  border: 4px solid #fcf6bd;
   width: 100px;
   height: 100px;
 }
@@ -44,6 +44,6 @@ p {
   font-size: 1.05rem;
 }
 .cardRecipe > h2{
-    border-bottom: 4px solid #eddcd2;
+    border-bottom: 4px solid #fcf6bd;
 }
 
