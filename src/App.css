@@ -10,33 +10,31 @@
   margin: 0 auto;
 }
 .search-bar {
-  width: 50%;
+  width: 30%;
   border: none;
   padding: 10px;
   border-radius: 10px;
 }
 .search-button {
   border: none;
-  border-radius: 10px;
-  background-color: #d0f4de;
-  border: 5px solid #ff99c8;
-  padding: 10px 20px;
-  margin-left: 10px;
-  font-family: 'Caveat', cursive;
-  font-weight: bold;
-  box-shadow: 5px 5px 5px rgb(163, 161, 161);
-
+  border-radius: 40px;
+  background-color: transparent;
+  padding: 5px 10px;
+  margin-left: 5px;
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+  transition: width 2s, height 2s, transform 2s;
 }
-.search-form > button:hover{
-  color:#a7bed3;
-  background-color: #f1ffc4;
+.search-form > button:hover {
   cursor: pointer;
+  transform: rotate(360deg);
+  
 }
 .recipes {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-h2{
-  font-family: 'Caveat', cursive;
+h2 {
+  font-family: "Caveat", cursive;
 }
