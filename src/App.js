@@ -5,8 +5,8 @@ import Recipe from "./components/Recipe";
 
 const App = () => {
   // Authenticate API --> Use Environment Tools to protect the APP_ID and APP_KEY :)
-  const APP_ID = "0a558300";
-  const APP_KEY = "181f226856b2e1b79a5770bcf412a99a";
+  const APP_ID = process.env.REACT_APP_API_ID;
+  const APP_KEY = process.env.REACT_APP_API_KEY;
   // ***********************State Updating**********************
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
