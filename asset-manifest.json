@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Foodie-Friday/static/css/main.a31b25b7.chunk.css",
-    "main.js": "/Foodie-Friday/static/js/main.71cb64a4.chunk.js",
-    "main.js.map": "/Foodie-Friday/static/js/main.71cb64a4.chunk.js.map",
+    "main.css": "/Foodie-Friday/static/css/main.bb8ecf71.chunk.css",
+    "main.js": "/Foodie-Friday/static/js/main.02edbbc3.chunk.js",
+    "main.js.map": "/Foodie-Friday/static/js/main.02edbbc3.chunk.js.map",
     "runtime-main.js": "/Foodie-Friday/static/js/runtime-main.8b40cc0b.js",
     "runtime-main.js.map": "/Foodie-Friday/static/js/runtime-main.8b40cc0b.js.map",
     "static/js/2.ae15839c.chunk.js": "/Foodie-Friday/static/js/2.ae15839c.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.661225f8.chunk.js": "/Foodie-Friday/static/js/3.661225f8.chunk.js",
     "static/js/3.661225f8.chunk.js.map": "/Foodie-Friday/static/js/3.661225f8.chunk.js.map",
     "index.html": "/Foodie-Friday/index.html",
-    "static/css/main.a31b25b7.chunk.css.map": "/Foodie-Friday/static/css/main.a31b25b7.chunk.css.map",
-    "static/js/2.ae15839c.chunk.js.LICENSE.txt": "/Foodie-Friday/static/js/2.ae15839c.chunk.js.LICENSE.txt"
+    "static/css/main.bb8ecf71.chunk.css.map": "/Foodie-Friday/static/css/main.bb8ecf71.chunk.css.map",
+    "static/js/2.ae15839c.chunk.js.LICENSE.txt": "/Foodie-Friday/static/js/2.ae15839c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Foodie-Friday/static/media/f.d7fd3e69.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.8b40cc0b.js",
     "static/js/2.ae15839c.chunk.js",
-    "static/css/main.a31b25b7.chunk.css",
-    "static/js/main.71cb64a4.chunk.js"
+    "static/css/main.bb8ecf71.chunk.css",
+    "static/js/main.02edbbc3.chunk.js"
   ]
 }
