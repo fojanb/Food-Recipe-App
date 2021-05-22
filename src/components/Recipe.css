@@ -11,16 +11,18 @@
   padding: 30px;
   border-radius: 20px;
   box-shadow: 10px 10px 20px #9d4edd;
-  background-color: #dbcdf0;
+  background-color: white;
+  opacity: 0.8;
   position: relative;
   animation-timing-function: ease;
   animation: cardRecipeMoveRight 3s;
-  opacity: 0.9;
-  
+  transition: 1s ease-in-out;
 }
 .cardRecipe:hover{
   opacity:1;
   cursor: pointer;
+  transition: 1s ease-in-out;
+
   transform :scale(1.1,1.1);
 }
 @keyframes cardRecipeMoveRight {
