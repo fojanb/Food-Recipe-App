@@ -1,14 +1,14 @@
 html {
   position: relative;
-  min-height: 100%;
+  min-height: 100vh;
+  background-image: url('./assets/f.jpeg');
+  background-size: contain;
 }
 body {
   font-family: "Khula", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   margin: 50px;
- 
 }
 
 .header {
