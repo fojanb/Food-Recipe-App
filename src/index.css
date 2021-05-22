@@ -1,7 +1,7 @@
 html {
   position: relative;
   min-height: 100vh;
-  background-image: url('./assets/f.jpeg');
+  background-image: url('./assets/food.png');
   background-size: contain;
 }
 body {
