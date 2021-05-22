@@ -58,7 +58,7 @@ const App = () => {
           onChange={updateSearch}
         ></input>
         <button type="submit" className="search-button">
-           🍭
+          <img src="https://img.icons8.com/android/24/000000/search.png" />
         </button>
       </form>
       {/* List of Recipe components : */}
