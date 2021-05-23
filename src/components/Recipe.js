@@ -1,19 +1,27 @@
 import React from "react";
-import './Recipe.css'
-
+import "./Recipe.css";
 const Recipe = (props) => {
+  const caloriesRound = (props) => {
+    let calories = props.calories;
+    let cal = Math.round(calories);
+    return cal;
+  };
   const spanStyle = {
-    fontSize:"20px"
-  }
+    fontFamily: "'Pattaya', sans-serif",
+  };
+
   return (
     <div className="cardRecipe">
-      <h2><span style={spanStyle}>🍉</span>{props.title}<span></span></h2>
+      <h2 style={spanStyle}>{props.title}</h2>
       <ol>
         {props.ingredients.map((ingredient) => (
           <li>{ingredient.text}</li>
         ))}
       </ol>
-      <p>Calories : {props.calories}</p>
+      <p>
+        Calories : {caloriesRound(props)}
+        <span> Kcal</span>
+      </p>
       <img src={props.image} alt={props.title} />
     </div>
   );
