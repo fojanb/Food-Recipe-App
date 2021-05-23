@@ -2,16 +2,20 @@
 html {
   position: relative;
   min-height: 100vh;
-  background-image: url('./assets/food.png');
+  background-image: url('./assets/food2.jpg');
   background-size: cover;
+  
 }
 body {
   font-family: "Khula", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 50px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5)
+  );
 }
-
 .header {
   display: flex;
   flex-wrap: wrap;
@@ -23,9 +27,9 @@ body {
   font-size: 80px;
   text-align: center;
   margin: 0 auto;
-  color: rgb(22, 21, 21);
-  opacity: 0.8;
-  text-shadow: 4px 4px 10px #fdffb6;
+  color: rgb(75, 70, 70);
+  -webkit-text-stroke: 2px rgb(255, 255, 255); /* width and color */
+  text-shadow: 4px 4px 10px #8b8b81;
   font-family: 'Pattaya', sans-serif;
 }
 .header .apple{
