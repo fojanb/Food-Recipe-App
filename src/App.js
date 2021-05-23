@@ -52,7 +52,7 @@ const App = () => {
         <span></span>
         <input
           type="text"
-          placeholder="🥂 Type Something Yummy... "
+          placeholder="Type Something Yummy... "
           className="search-bar"
           value={search}
           onChange={updateSearch}
