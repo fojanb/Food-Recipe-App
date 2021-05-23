@@ -6,11 +6,11 @@
   justify-content: space-around;
   text-align: left;
   align-items: center;
-  border: 8px solid #fcf6bd;
+  border: 8px solid #f1f1ef;
   margin: 30px;
   padding: 30px;
   border-radius: 20px;
-  box-shadow: 10px 10px 20px #9d4edd;
+  box-shadow: 10px 10px 20px #aaaaaa;
   background-color: white;
   opacity: 0.8;
   position: relative;
@@ -42,7 +42,7 @@
   }
 .cardRecipe > img {
   border-radius: 50%;
-  border: 5px solid #fcf6bd;
+  border: 5px solid #fff6cc;
   width: 100px;
   height: 100px;
 }
@@ -52,9 +52,9 @@ p {
   font-size: 1.05rem;
 }
 .cardRecipe > h2 ,p {
-    box-shadow: 0 4px 8px 0 #9d4edd, 0 6px 10px 0 ;
+    box-shadow: 0 2px 4px 0 #e2e2e2, 0 2px 4px 0 ;
     padding: 5px;
     border-radius: 10px;
-    background-color: #fcf6bd;
+    background-color: #fff6cc;
 }
 
