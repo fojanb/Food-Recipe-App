@@ -58,5 +58,7 @@ p {
     background-color: #ddbea9;
 }
 .cardRecipe > h2 {
-  color: #fff;
+  color: #534234;
+  -webkit-text-stroke: 0.5px #534234; /* width and color */
+
 }
