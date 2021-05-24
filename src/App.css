@@ -14,10 +14,17 @@
   width: 30%;
   border: none;
   padding: 10px;
-  border-radius: 10px;
+  background: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 16px 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+ 
 }
-.search-bar:hover{
-  background-color: #e2eafc;
+.search-bar:focus{
+  background-color: rgba(255, 255, 255, 0.75);
 }
 .search-button {
   border: none;
