@@ -19,7 +19,7 @@ const Recipe = (props) => {
         ))}
       </ol>
       <p>
-        Calories : {caloriesRound(props)}
+        Calories  {caloriesRound(props)}
         <span> Kcal</span>
       </p>
       <img src={props.image} alt={props.title} />
