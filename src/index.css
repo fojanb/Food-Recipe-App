@@ -1,11 +1,9 @@
-
 html {
   position: relative;
   min-height: 100vh;
-  background-image: url('./assets/food2.jpg');
+  background-image: url("./assets/food2.jpg");
   background-size: cover;
   background-attachment: fixed;
-
 }
 body {
   font-family: "Khula", sans-serif;
@@ -13,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.5)
   );
 }
@@ -23,54 +21,97 @@ body {
   justify-content: center;
   width: 100%;
   height: 120px;
-  border-radius:20px;
-  font-family: 'Caveat', cursive;
+  border-radius: 20px;
+  font-family: "Caveat", cursive;
   font-size: 80px;
   text-align: center;
   margin: 0 auto;
   color: rgb(75, 70, 70);
   -webkit-text-stroke: 2px rgb(255, 255, 255); /* width and color */
   text-shadow: 4px 4px 10px #8b8b81;
-  font-family: 'Pattaya', sans-serif;
+  font-family: "Pattaya", sans-serif;
 }
-.header .apple{
+.header .apple {
   font-size: 35px;
   position: relative;
-  top:30px;
+  top: 30px;
   padding-left: 10px;
 }
-#animation{
+#animation {
   animation-name: wiggle;
   animation-duration: 5s;
-  
 }
 /* Safari and Chrome browser */
-@-webkit-keyframes wiggle { 
-  0% { -webkit-transform: skewX(9deg); }
-  10% { -webkit-transform: skewX(-8deg); }
-  20% { -webkit-transform: skewX(7deg); }
-  30% { -webkit-transform: skewX(-6deg); }
-  40% { -webkit-transform: skewX(5deg); } 
-  50% { -webkit-transform: skewX(-4deg); } 
-  60% { -webkit-transform: skewX(3deg); }
-  70% { -webkit-transform: skewX(-2deg); } 
-  80% { -webkit-transform: skewX(1deg); } 
-  90% { -webkit-transform: skewX(0deg); }
-  100% { -webkit-transform: skewX(0deg); } 
+@-webkit-keyframes wiggle {
+  0% {
+    -webkit-transform: skewX(9deg);
+  }
+  10% {
+    -webkit-transform: skewX(-8deg);
+  }
+  20% {
+    -webkit-transform: skewX(7deg);
+  }
+  30% {
+    -webkit-transform: skewX(-6deg);
+  }
+  40% {
+    -webkit-transform: skewX(5deg);
+  }
+  50% {
+    -webkit-transform: skewX(-4deg);
+  }
+  60% {
+    -webkit-transform: skewX(3deg);
+  }
+  70% {
+    -webkit-transform: skewX(-2deg);
+  }
+  80% {
+    -webkit-transform: skewX(1deg);
+  }
+  90% {
+    -webkit-transform: skewX(0deg);
+  }
+  100% {
+    -webkit-transform: skewX(0deg);
+  }
 }
 @keyframes wiggle {
-  0% { transform: skewX(9deg); } 
-  10% { transform: skewX(-8deg); } 
-  20% { transform: skewX(7deg); } 
-  30% { transform: skewX(-6deg); } 
-  40% { transform: skewX(5deg); } 
-  50% { transform: skewX(-4deg); } 
-  60% { transform: skewX(3deg); } 
-  70% { transform: skewX(-2deg); } 
-  80% { transform: skewX(1deg); } 
-  90% { transform: skewX(0deg); } 
-  100% { transform: skewX(0deg); } 
-} 
+  0% {
+    transform: skewX(9deg);
+  }
+  10% {
+    transform: skewX(-8deg);
+  }
+  20% {
+    transform: skewX(7deg);
+  }
+  30% {
+    transform: skewX(-6deg);
+  }
+  40% {
+    transform: skewX(5deg);
+  }
+  50% {
+    transform: skewX(-4deg);
+  }
+  60% {
+    transform: skewX(3deg);
+  }
+  70% {
+    transform: skewX(-2deg);
+  }
+  80% {
+    transform: skewX(1deg);
+  }
+  90% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
+}
 .footer {
   display: flex;
   justify-content: center;
