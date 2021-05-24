@@ -10,6 +10,7 @@
   margin: 0 auto;
 }
 .search-bar {
+  display: block;
   width: 30%;
   border: none;
   padding: 10px;
@@ -20,6 +21,8 @@
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 0px 0px 16px 16px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.4s ease-out;
+
 }
 .search-bar:focus {
   background-color: rgba(255, 255, 255, 0.75);
