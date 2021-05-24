@@ -68,14 +68,14 @@ body {
 }
 @media screen and (max-width: 488px) {
   .header {
-    font-size: 45px;
+    font-size: 48px;
     -webkit-text-stroke: 1px rgb(255, 255, 255); /* width and color */
     text-shadow: 2px 2px 7px #8b8b81;
   }
 }
 @media screen and (max-width: 472px) {
   .header {
-    font-size: 40px;
+    font-size: 45px;
     -webkit-text-stroke: 1px rgb(255, 255, 255); /* width and color */
     text-shadow: 1px 1px 6px #8b8b81;
   }
