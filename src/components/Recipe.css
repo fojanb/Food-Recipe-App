@@ -18,28 +18,32 @@
   animation: cardRecipeMoveRight 3s;
   transition: 1s ease-in-out;
 }
-.cardRecipe:hover{
-  opacity:1;
+.cardRecipe:hover {
+  opacity: 1;
   cursor: pointer;
   transition: 1s ease-in-out;
-  transform :scale(1.1,1.1);
+  transform: scale(1.1, 1.1);
+}
+.cardRecipe > p {
+  font-family: "Pattaya", sans-serif;
+  color: #534234;
 }
 @keyframes cardRecipeMoveRight {
-    from {
-      left: 0px;
-    }
-    to {
-      left: -300px;
-    }
+  from {
+    left: 0px;
   }
-  @keyframes cardRecipeMoveRight {
-    from {
-      left: -300px;
-    }
-    to {
-      left: 0px;
-    }
+  to {
+    left: -300px;
   }
+}
+@keyframes cardRecipeMoveRight {
+  from {
+    left: -300px;
+  }
+  to {
+    left: 0px;
+  }
+}
 .cardRecipe > img {
   border-radius: 50%;
   border: 5px solid #ddbea9;
@@ -51,13 +55,13 @@ p {
   font-weight: bold;
   font-size: 1.05rem;
 }
-.cardRecipe > h2 ,p {
-    box-shadow: 0 2px 4px 0 #e2e2e2, 0 2px 4px 0 ;
-    padding: 5px;
-    border-radius: 10px;
-    background-color: #ddbea9;
+.cardRecipe > h2,
+p {
+  box-shadow: 0 2px 4px 0 #e2e2e2, 0 2px 4px 0;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #ddbea9;
 }
 .cardRecipe > h2 {
   color: #534234;
-
 }
