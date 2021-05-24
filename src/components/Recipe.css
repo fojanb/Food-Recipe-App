@@ -6,7 +6,7 @@
   justify-content: space-around;
   text-align: left;
   align-items: center;
-  border: 8px solid #f1f1ef;
+  border: 8px solid #ede0d4;
   margin: 30px;
   padding: 30px;
   border-radius: 20px;
@@ -42,7 +42,7 @@
   }
 .cardRecipe > img {
   border-radius: 50%;
-  border: 5px solid #fff6cc;
+  border: 5px solid #ddbea9;
   width: 100px;
   height: 100px;
 }
@@ -55,6 +55,6 @@ p {
     box-shadow: 0 2px 4px 0 #e2e2e2, 0 2px 4px 0 ;
     padding: 5px;
     border-radius: 10px;
-    background-color: #fff6cc;
+    background-color: #ddbea9;
 }
 
