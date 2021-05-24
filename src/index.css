@@ -4,7 +4,8 @@ html {
   min-height: 100vh;
   background-image: url('./assets/food2.jpg');
   background-size: cover;
-  
+  background-attachment: fixed;
+
 }
 body {
   font-family: "Khula", sans-serif;
