@@ -26,57 +26,57 @@ body {
   font-size: 80px;
   text-align: center;
   margin: 0 auto;
-  color: rgb(75, 70, 70);
-  -webkit-text-stroke: 2px rgb(255, 255, 255); /* width and color */
+  color: #534234;
+  -webkit-text-stroke: 2px #ede0d4; /* width and color */
   text-shadow: 4px 4px 10px #8b8b81;
   font-family: "Pattaya", sans-serif;
 }
 @media screen and (max-width: 600px) {
   .header {
     font-size: 70px;
-    -webkit-text-stroke: 1px rgb(255, 255, 255); /* width and color */
+    -webkit-text-stroke: 1px #ede0d4; /* width and color */
     text-shadow: 2px 2px 8px #8b8b81;
   }
 }
 @media screen and (max-width: 575px) {
   .header {
     font-size: 65px;
-    -webkit-text-stroke: 1px rgb(255, 255, 255); /* width and color */
+    -webkit-text-stroke: 1px #ede0d4; /* width and color */
     text-shadow: 2px 2px 8px #8b8b81;
   }
 }
 @media screen and (max-width: 550px) {
   .header {
     font-size: 60px;
-    -webkit-text-stroke: 1px rgb(255, 255, 255); /* width and color */
+    -webkit-text-stroke: 1px #ede0d4; /* width and color */
     text-shadow: 2px 2px 8px #8b8b81;
   }
 }
 @media screen and (max-width: 525px) {
   .header {
     font-size: 55px;
-    -webkit-text-stroke: 1px rgb(255, 255, 255); /* width and color */
+    -webkit-text-stroke: 1px #ede0d4; /* width and color */
     text-shadow: 2px 2px 8px #8b8b81;
   }
 }
 @media screen and (max-width: 500px) {
   .header {
     font-size: 50px;
-    -webkit-text-stroke: 1px rgb(255, 255, 255); /* width and color */
+    -webkit-text-stroke: 1px #ede0d4; /* width and color */
     text-shadow: 2px 2px 7px #8b8b81;
   }
 }
 @media screen and (max-width: 488px) {
   .header {
     font-size: 48px;
-    -webkit-text-stroke: 1px rgb(255, 255, 255); /* width and color */
+    -webkit-text-stroke: 1px #ede0d4; /* width and color */
     text-shadow: 2px 2px 7px #8b8b81;
   }
 }
 @media screen and (max-width: 472px) {
   .header {
     font-size: 45px;
-    -webkit-text-stroke: 1px rgb(255, 255, 255); /* width and color */
+    -webkit-text-stroke: 1px #ede0d4; /* width and color */
     text-shadow: 1px 1px 6px #8b8b81;
   }
 }
