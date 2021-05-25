@@ -6,7 +6,7 @@ html {
   background-attachment: fixed;
 }
 body {
-  font-family:inherit;
+  font-family: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(
@@ -167,7 +167,8 @@ body {
   align-items: center;
   text-align: center;
   width: 100%;
-  color: #000000;
+  color: #534234;
+  font-family: "Pattaya", sans-serif;
   font-size: 14px;
   font-weight: bolder;
   position: absolute;
