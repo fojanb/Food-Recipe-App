@@ -6,7 +6,7 @@ html {
   background-attachment: fixed;
 }
 body {
-  font-family: "Khula", sans-serif;
+  font-family:inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(
