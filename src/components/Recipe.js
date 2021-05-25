@@ -13,19 +13,16 @@ const Recipe = (props) => {
   return (
     <div className="cardRecipe">
       <h2 style={spanStyle}>{props.title}</h2>
-      <hr></hr>
       <ol>
         {props.ingredients.map((ingredient) => (
           <li>{ingredient.text}</li>
         ))}
       </ol>
-      <div>
-        <p>
-          {caloriesRound(props)}
-          <span> Kcal</span>
-        </p>
-        <img src={props.image} alt={props.title} />
-      </div>
+      <p>
+        {caloriesRound(props)}
+        <span> Kcal</span>
+      </p>
+      <img src={props.image} alt={props.title} />
     </div>
   );
 };
