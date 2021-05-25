@@ -1,13 +1,14 @@
 .cardRecipe {
   display: flex;
   width: 30%;
+  height: 40%;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
   text-align: left;
   align-items: center;
   margin: 30px;
-  padding: 30px;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 10px 10px 20px #aaaaaa;
   background-color: white;
@@ -50,7 +51,8 @@
 }
 .cardRecipe > img {
   border-radius: 50%;
-  box-shadow: 0 4px 8px 0 rgba(219, 184, 184, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 8px 0 rgba(219, 184, 184, 0.8),
+    0 6px 20px 0 rgba(0, 0, 0, 0.8);
   width: 100px;
   height: 100px;
 }
@@ -59,7 +61,7 @@ p {
   font-weight: bold;
   font-size: 1.05rem;
   color: #534234;
-  font-family: 'Athiti', sans-serif;
+  font-family: "Athiti", sans-serif;
 }
 .cardRecipe > h2 {
   padding: 5px;
