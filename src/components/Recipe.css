@@ -8,7 +8,7 @@
   text-align: left;
   align-items: center;
   margin: 30px;
-  padding: 10px;
+  padding: 10px 10px 20px 10px;
   border-radius: 10px;
   box-shadow: 10px 10px 20px #aaaaaa;
   background-color: white;
@@ -56,6 +56,7 @@
   width: 100px;
   height: 100px;
 }
+
 .cardRecipe > ol,
 p {
   font-weight: bold;
@@ -67,3 +68,4 @@ p {
   padding: 5px;
   color: #534234;
 }
+
